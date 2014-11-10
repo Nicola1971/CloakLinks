@@ -40,4 +40,5 @@ credits: http://ctrtard.com/affiliate-marketing/better-affiliate-link-cloaking-f
 * &ErrorEmptyLink = text placeholder for empty tv and/or missing linkweb parameter | default value: "Empty Link"
 
 
-
+#More infos and demo
+http://www.tattoocms.it/extras/snippets/cloaklinks.html
