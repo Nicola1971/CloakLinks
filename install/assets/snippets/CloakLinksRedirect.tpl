@@ -3,8 +3,8 @@
  *
  * CloakLinksRedirect 1.0 - cloak affiliate links base64 decoder and redirect
  *
- * author: Nicola Lambathakis
- *
+ * @version     1.0
+ * @author      Author: Nicola Lambathakis http://www.tattoocms.it/
  * @category snippet
  * @internal @modx_category Cloak Affiliate Links
  * @license http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
