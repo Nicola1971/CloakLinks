@@ -3,6 +3,8 @@ CloakLinks
 
 Affiliate Link Cloaker snippet for MODX Evolution 
 
+![cloaklink] (https://raw.githubusercontent.com/Nicola1971/training-materials/master/Images/cloak/cloak-links-affiliate-modx-snippet.jpg)
+
 Encode urls i base64 and redirect through a blocked page/folder
 
 credits: http://ctrtard.com/affiliate-marketing/better-affiliate-link-cloaking-for-seo/   
