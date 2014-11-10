@@ -7,7 +7,7 @@ Encode urls i base64 and redirect through a blocked page/folder
 
 credits: http://ctrtard.com/affiliate-marketing/better-affiliate-link-cloaking-for-seo/   
  
-# Install instrucions
+# Install instructions
 
 ### Create the redirect landing page
 * create a new resource with the name of your choice
