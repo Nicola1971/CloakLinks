@@ -1,9 +1,9 @@
 /**
  * CloakLinks
  *
- * CloakLinks 1.0 - cloak affiliate links base64 encoder
+ * CloakLinks 1.0.1 - cloak affiliate links base64 encoder
  *
- * @version     1.0
+ * @version     1.0.1
  * @author      Author: Nicola Lambathakis http://www.tattoocms.it/
  * @category snippet
  * @internal @modx_category Cloak Affiliate Links
@@ -28,6 +28,7 @@
 // &ErrorEmptyLink = text placeholder for empty tv and/or missing linkweb parameter | default value: "Empty Link"
 
 $textlink = isset ($textlink) ? $textlink : "Go to the website";
+$linkelements = isset ($linkelements) ? $linkelements : "";
 $targetlink = isset ($targetlink) ? $targetlink : "_blank";
 $landing = isset ($landing) ? $landing : "[*id*]";
 $landingurl = ($modx->makeUrl($landing, '', '', 'full'));
@@ -46,7 +47,7 @@ $url = $Link[''.$LinkTv.''];
 $url = base64_encode($url);
 $url = urlencode($url);
 
-$linkurl = "<a href=\"$landingurl&$urlparam=$url\" rel=\"nofollow\" name=\"$NameAttribute\" target=\"$targetlink\">$textlink</a>";
+$linkurl = "<a $linkelements="" target="\"$targetlink\"" rel="\"nofollow\"" href="\"$landingurl&$urlparam=$url\"">$textlink</a>";
 
 if($LinkTv == "" && $LinkWeb == ""){
 echo $ErrorEmptyLink;
