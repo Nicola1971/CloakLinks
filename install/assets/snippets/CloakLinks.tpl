@@ -47,7 +47,7 @@ $url = $Link[''.$LinkTv.''];
 $url = base64_encode($url);
 $url = urlencode($url);
 
-$linkurl = "<a $linkelements="" target="\"$targetlink\"" rel="\"nofollow\"" href="\"$landingurl&$urlparam=$url\"">$textlink</a>";
+$linkurl = "<a $linkelements href=\"$landingurl&$urlparam=$url\" rel=\"nofollow\" target=\"$targetlink\">$textlink</a>";
 
 if($LinkTv == "" && $LinkWeb == ""){
 echo $ErrorEmptyLink;
