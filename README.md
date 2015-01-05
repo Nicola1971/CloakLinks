@@ -31,13 +31,20 @@ credits: http://ctrtard.com/affiliate-marketing/better-affiliate-link-cloaking-f
 
  
 ## Parameters:
+
 * &textlink = text placeholder | default value: "Go to the website"
 * &targetlink = href target attribute | default value: "_blank"
-* &landing = resource id of the landing page for redirect (must contain a [[CloakLinksRedirect]] snippet call)
+* &landing = resource id of the landing page for redirect (must contain a ```[[CloakLinksRedirect]]``` snippet call)
 * &LinkTv = (method 1) name of the Text template variable containing the affiliate link
 * &LinkWeb = (method 2) full affiliate link
 * &urlparam = custom parameter url | default value: "goto"
 * &ErrorEmptyLink = text placeholder for empty tv and/or missing linkweb parameter | default value: "Empty Link"
+* &textlink = text placeholder | default value: "Go to the website"
+* &AffiliateSuffix = link suffix for affiliate code (ie: 123456789 or ```[*affiliatecodetv*]```)
+* &urlparam = custom parameter url | default value: "goto"
+* &linkelements = allows the addition of extras like class, title etc.
+* &dummyparams = "Dummy" parameters e.g. ```&dummyparams=`pid=147&alias=cloaklinks&````
+
 
 
 #More infos and demo
