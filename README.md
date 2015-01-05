@@ -2,6 +2,7 @@ CloakLinks 1.0.3
 ==========
 
 Affiliate Link Cloaker snippet for MODX Evolution 
+Contributors: iusemodx, breezer
 
 ![cloaklink] (https://raw.githubusercontent.com/Nicola1971/training-materials/master/Images/cloak/cloak-links-affiliate-modx-snippet.jpg)
 
