@@ -1,4 +1,4 @@
-CloakLinks 1.0.0
+CloakLinks 1.0.3
 ==========
 
 Affiliate Link Cloaker snippet for MODX Evolution 
